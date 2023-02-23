@@ -53,24 +53,10 @@
           </div>
         </div>
       </section>
-      <section class="current-weather">
+      <section class="py-5 bg-secondary">
         <div class="container">
           <h2 class="text-center">Vremea curenta</h2>
-          <div class="d-flex justify-content-evenly">
-            <div class="px-3">
-              <div class="fs-2 mb-2"><strong>Timisoara</strong></div>
-              <div class="fs-5"><strong>Marti</strong>, 19:54</div>
-              <div>
-                <strong>10°C</strong>
-                <img src="" alt="" />
-              </div>
-            </div>
-            <div class="px-3">
-              <p class="fs-5">Se simte ca <strong>8°C</strong></p>
-              <p class="fs-5">Putin inorat</p>
-              <p class="fs-5">Viteza vantului: <strong>15 km/h</strong></p>
-            </div>
-          </div>
+          <div class="current-weather d-flex justify-content-evenly align-items-center"></div>
         </div>
       </section>
     </main>
@@ -84,6 +70,15 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./services/utils.js"></script>
+    <script src="./services/weatherService.js"></script>
+    <script src="./utils/date.js"></script>
+    <script src="./utils/weather.js"></script>
+
+    <script src="./sections/CurrentWeather.js"></script>
+
+    <!-- Asta trebuie sa fie ultimul -->
     <script src="./js/script.js"></script>
   </body>
 </html>
