@@ -18,6 +18,7 @@ function updateWeather(city) {
     localStorage.setItem("city", city);
 
     updateCurrentCity(city);
+    displayWeatherForecast(city);
     displayCurrentWeather(city);
 }
 
