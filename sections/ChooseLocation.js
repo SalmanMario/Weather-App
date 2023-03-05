@@ -6,6 +6,9 @@ const sibiu = document.querySelector(".dropdown-item.sibiu");
 const arad = document.querySelector(".dropdown-item.arad");
 const brasov = document.querySelector(".dropdown-item.brasov");
 const miercureaCiuc = document.querySelector(".dropdown-item.miercurea-ciuc");
+const sannicolauMare = document.querySelector(".dropdown-item.sannicolau-mare");
+const satuMare = document.querySelector(".dropdown-item.satu-mare");
+const bacau = document.querySelector(".dropdown-item.bacau");
 
 function updateCurrentCity(city) {
     // selectam elem care contine orasul principal
@@ -61,4 +64,19 @@ brasov.addEventListener("click", function () {
 miercureaCiuc.addEventListener("click", function () {
     console.log("S-a selectat miercurea ciuc");
     updateWeather("Miercurea Ciuc");
+});
+
+sannicolauMare.addEventListener("click", function () {
+    console.log("S-a selectat Sannicolau Mare");
+    updateWeather("Sannicolau Mare");
+});
+
+satuMare.addEventListener("click", function () {
+    console.log("S-a selectat Satu Mare");
+    updateWeather("Satu Mare");
+});
+
+bacau.addEventListener("click", function () {
+    console.log("S-a selectat Bacau");
+    updateWeather("Bacau");
 });
